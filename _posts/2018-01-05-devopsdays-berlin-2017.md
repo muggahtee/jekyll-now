@@ -2,9 +2,8 @@
 layout:     post
 title:      devopsdays Berlin 2017
 date:       2018-01-05 10:00:00
-summary:    A look at the highlights of devopsdays Berlin 2017
-category:   Conferences
-tags:       devops, conference, berlin, tech ninja
+description:    A look at the highlights of devopsdays Berlin 2017
+tags:       devops, conference, berlin
 ---
 
 An Englishman, a Swede, a Dane, and a Guatemalan all walk into a Bavarian bar and start chatting to a Canadian and a Pole. Sounds like the start of an inappropriate joke, but this shows just how diverse the attendees of the devopsdays Berlin conference actually are. For those unfamiliar with the format of a devopsdays conference, the morning is filled with structured, traditional talks and presentations, and the afternoon is spent in **Open Spaces**. The agenda for these sessions are suggested and voted on by conference attendees, and the time is meant to be spent discussing the subjects as a group. 
