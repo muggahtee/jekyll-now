@@ -49,3 +49,39 @@
     {% include analytics.html %}
   </body>
 </html>
+
+<!DOCTYPE html>
+<html style="height:100%;">
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /><!DOCTYPE html>
+<body style="height:100%;">
+
+<div id="content" style="height:220px;width:400px;margin:0 auto;">
+<pre style="text-align:center;">  .oooooo.   ooooo         .oooooo..o 
+ d8P'  `Y8b  `888'        d8P'    `Y8 
+888      888  888         Y88bo.      
+888      888  888          `"Y8888o.  
+888      888  888              `"Y88b 
+`88b    d88'  888       o oo     .d8P 
+ `Y8bood8P'  o888ooooood8 8""88888P'  
+</pre>
+<pre style="white-space:pre-wrap;word-wrap:break-word"> 
+Dad, husband, computer-man. Greasing wheels, chasing 9s, polishing LAMPs, and doing devops at Sky Betting and Gaming.</pre>
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    {% include analytics.html %}
+  
+  </div>
+  </div>
+</body>
+</html>
