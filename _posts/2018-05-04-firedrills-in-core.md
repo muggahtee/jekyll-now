@@ -2,7 +2,7 @@
 layout:     post
 title:      Crash! Bang! Wallop! Practice makes perfect
 date:       2018-05-04
-summary:    Engineered Chaos, breaking production, and getting away with it. How the Core Tribe in Sky Betting and Gaming break stuff to make things better
+description:    Engineered Chaos, breaking production, and getting away with it. How the Core Tribe in Sky Betting and Gaming break stuff to make things better
 tags:       chaos engineering, firedrill
 ---
 
