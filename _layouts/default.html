@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html style="height:100%;">
+<html>
   <head>
     <style type="text/css">
 @import url('https://rsms.me/inter/inter-ui.css');
-body{background-color:#000;color:#fff;font-family:'Inter UI',sans-serif}
+html{height:100%;}
+body{background-color:#000;color:#fff;font-family:'Inter UI',sans-serif;}
 #container{width:50%;margin:0 auto;}
 #logo{position:fixed;bottom:10px;left:10px;color:#555;}
 a:link,a:visited,a:active{color:white;font-weight:bold;transition:0.1s;border-bottom:solid 1px #fff; text-decoration:none;padding-bottom:2px;}
 a:hover{border-bottom:solid 4px #fff;}
       #content{width:400px;margin:0 auto;}
       @media screen and (max-width: 480px){
-        #content{width:100%;}
+				body{margin-bottom:20px;}
+        #content,#container{width:100%;}
+				#logo{display:none;}
       }
     </style>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -21,7 +24,7 @@ a:hover{border-bottom:solid 4px #fff;}
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /><!DOCTYPE html>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 </head>
 <body>
 <div id="container">
