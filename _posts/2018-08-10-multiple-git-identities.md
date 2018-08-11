@@ -22,10 +22,11 @@ I achieved this by adding the following to line 534 and 537 of `$(brew --prefix)
 local STATUS_PREFIX="${PROMPT_LEADING_SPACE}${GIT_PROMPT_PREFIX}$(git config user.email)|${GIT_PROMPT_MASTER_BRANCH}\${GIT_BRANCH}${R    esetColor}${GIT_FORMATTED_UPSTREAM}"
 ```
 
-I then put this function in my `.bashrc`
+I then put these aliases in my `.bashrc` to switch between the two:
 
 ```
 alias gitper='echo -n "Was " && git config user.email && git config user.signingkey && git config --global user.email "oliver@leaversmith.com" && git config --global user.signingkey 16503BFB && echo -n "Now " && git config user.email && git config user.signingkey'
+
 alias gitwork='echo -n "Was " && git config user.email && git config user.signingkey && git config --global user.email "<work email>" && git config --global user.signingkey <work key> && echo -n "Now " && git config user.email && git config user.signingkey'
 ```
 
