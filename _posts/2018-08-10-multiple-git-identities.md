@@ -10,7 +10,7 @@ I use my work machine for personal stuff sometimes. Shocker.
 
 Because I don't want to commit to personal projects using my work git identity (and vice versa) I was looking at ways to manage multiple identities in git. No joy.
 
-I use the fantastic [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) which allows me to see my branch, origin branch, and the status of my changes. I amended this slight to add in the value of `git config user.email` to see which identity was currently being used. My PS1 in a git directory now looks like this:
+I use the fantastic [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) which allows me to see my branch, upstream origin, and the status of my changes. I amended this slight to add in the value of `git config user.email` to see which identity was currently being used. My PS1 in a git directory now looks like this:
 
 ```
 ✔ ~/personal_repos/ols.wtf [oliver@leaversmith.com|master {origin/master}|✔]
