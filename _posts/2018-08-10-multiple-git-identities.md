@@ -4,6 +4,7 @@ title:      Multiple git Identities
 date:       2018-08-10
 description:    As far as I know, there is no _nice_ way to manage multiple identities in git, this is how I get round that
 tags:       git
+comments: true
 ---
 
 I use my work machine for personal stuff sometimes. Shocker.

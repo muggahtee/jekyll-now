@@ -4,6 +4,7 @@ title:      Crash! Bang! Wallop! Practice makes perfect
 date:       2018-05-04
 description:    Engineered Chaos, breaking production, and getting away with it. How the Core Tribe in Sky Betting and Gaming break stuff to make things better
 tags:       chaos engineering, firedrill
+comments: true
 ---
 
 Our story begins on what can have been no more than my third day at Sky Betting and Gaming. The Head of Platform for Core Tribe mentioned that my mentor would be hard to get hold of that morning, as he was "setting up and running a firedrill". I made my confusion known. How would one set up a firedrill, and why? My confusion, and images of people standing on chairs with lighters held under sprinklers, turned to intrigue when I was given a little context, and told about how firedrills are the training exercises done to work on incident response, disaster recovery testing, and chaos engineering. Welcome to Sky Betting and Gaming, where a firedrill isn't always what you think it is...
