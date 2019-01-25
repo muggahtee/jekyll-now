@@ -7,16 +7,16 @@ html{height:100%;}
 body{background-color:#000;color:#fff;font-family:'Inter UI',sans-serif;}
 #container{width:50%;margin:0 auto;}
 #logo{position:fixed;bottom:10px;left:10px;color:#555;}
-a:link,a:visited,a:active{color:white;text-decoration:none;font-weight:bold;transition:0.1s;}
-a:hover{color:red;}
+a:link,a:visited,a:active{color:#999;text-decoration:none;font-weight:bold;transition:0.4s;}
+a:hover{color:#d20000;}
 a.nav:link,a.nav:visited,a.nav:active{color:white;font-weight:bold;transition:0.1s;border-bottom:solid 1px #fff; text-decoration:none;padding-bottom:2px;}
 a.nav:hover{border-bottom:solid 4px #fff;}
 pre{white-space:pre-wrap;word-wrap:break-word;}
+.comments{margin-top:20px;}
       #content{width:400px;margin:0 auto;}
       @media screen and (max-width: 480px){
 				body{margin-bottom:20px;}
         #content,#container{width:100%;}
-				#logo{display:none;}
       }
     </style>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -37,16 +37,6 @@ pre{white-space:pre-wrap;word-wrap:break-word;}
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-<div id="logo">
-<pre>  .oooooo.   ooooo         .oooooo..o
- d8P'  `Y8b  `888'        d8P'    `Y8
-888      888  888         Y88bo.
-888      888  888          `"Y8888o.
-888      888  888              `"Y88b
-`88b    d88'  888       o oo     .d8P
- `Y8bood8P'  o888ooooood8 8""88888P'
-</pre>
-</div>
     {% include analytics.html %}
   
   </div>
