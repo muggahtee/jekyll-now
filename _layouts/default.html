@@ -3,14 +3,16 @@
   <head>
     <style type="text/css">
 @import url('https://rsms.me/inter/inter-ui.css');
-html{height:100%;}
-body{background-color:#000;color:#fff;font-family:'Inter UI',sans-serif;}
-#container{width:50%;margin:0 auto;}
+html{height:100%;margin:0;padding:0;}
+body{background-color:#fff;color:#364fc7;font-family:'Helvetica Neue','Arial',sans-serif;margin:0;padding:0;}
+#header{background-color:#364fc7;color:#fff;padding:30px 0px;}
+#header h1{margin-top:0;}
+#container{width:50%;margin:0 auto;padding:30px 0px;}
+#headcontain{width:50%;margin:0 auto;}
 #logo{position:fixed;bottom:10px;left:10px;color:#555;}
-a:link,a:visited,a:active{color:#999;text-decoration:none;font-weight:bold;transition:0.4s;}
-a:hover{color:#d20000;}
-a.nav:link,a.nav:visited,a.nav:active{color:white;font-weight:bold;transition:0.1s;border-bottom:solid 1px #fff; text-decoration:none;padding-bottom:2px;}
-a.nav:hover{border-bottom:solid 4px #fff;}
+a:link,a:visited,a:active{color:#364fc7;text-decoration:none;font-weight:bold;transition:0.4s;}
+a:hover{color:#e67700;}
+a.nav:link,a.nav:visited,a.nav:active{color:#fff;font-weight:bold;transition:0.1s;text-decoration:none;padding-bottom:2px;}
 pre{white-space:pre-wrap;word-wrap:break-word;}
 .comments{margin-top:20px;}
       #content{width:400px;margin:0 auto;}
@@ -29,11 +31,17 @@ pre{white-space:pre-wrap;word-wrap:break-word;}
     <![endif]-->
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
+<div id="header">
+<div id="headcontain">
+<h1>ols</h1>
+<h2>Dad, husband, computer-man. Greasing wheels, chasing 9s, polishing LAMPs, and doing devops.</h2>
+<p><a href="/" class="nav"><i class="fas fa-home"></i> home</a> <a href="/blog" class="nav"><i class="fas fa-pencil-alt"></i> blog</a> <a href="https://whois.ols.wtf" class="nav"><i class="fas fa-question"></i> whois</a> <a href="https://git.sr.ht/~ols" class="nav"><i class="fas fa-code-branch"></i> git</a></p>
+</div>
+</div>
 <div id="container">
-<h2>Dad, husband, computer-man. Greasing wheels, chasing 9s, polishing LAMPs, and doing devops at Sky Betting and Gaming.</h2>
-<p><a href="/" class="nav">home</a> <a href="/blog" class="nav">blog</a> <a href="https://whois.ols.wtf" class="nav">whois</a> <a href="https://git.sr.ht/~ols" class="nav">git</a></p>
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
